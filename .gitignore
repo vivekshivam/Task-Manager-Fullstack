@@ -1,1 +1,44 @@
-New-Item .gitignore
+# ======================
+# GLOBAL IGNORE (FULL STACK)
+# ======================
+
+# Node modules
+node_modules/
+
+# Env files (CRITICAL)
+.env
+.env.*
+
+# Next.js
+.next/
+out/
+
+# Build files
+dist/
+build/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Prisma / Database
+*.db
+*.sqlite
+
+# VS Code
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Coverage
+coverage/
+
+# Vercel
+.vercel
+task-manager-backend/prisma/dev.db
